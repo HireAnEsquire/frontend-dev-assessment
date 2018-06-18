@@ -2,6 +2,8 @@
 
 Built with Python 2.7.12, Django 1.10.8. Uses sqlite3.
 
+This project was built and tested on Ubuntu. It should be able to run on other operating systems, but some additional configuration may be required.
+
 ## Install
 
 ### Dependencies
@@ -22,8 +24,8 @@ Then, start the dev server on port 8000:
 
 The API provides the following:
 
-| action | URL | description |  
-| ------ | --- | ----------- |  
+| action | URL | description |
+| ------ | --- | ----------- |
 | `GET` | `/candidates/` | list all candidates |
 | `POST` | `/candidates/` | create a new candidate |
 | `GET` | `/candidates/:id/` | retrieve candidate |
